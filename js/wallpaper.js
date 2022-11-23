@@ -238,7 +238,7 @@ function ajaxBingWal(start, count){
 function ajaxCiba(data){
     $.ajax({
         type: "GET", 
-        url: "http://open.iciba.com/dsapi/", 
+        url: "https://open.iciba.com/dsapi/", 
         // data: "cid=bing&start=" + start + "&count=" + count,
         dataType : "jsonp",
         success: function(jsonData){
